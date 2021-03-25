@@ -1,8 +1,129 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 
-*/
+.navbar {
+    width: 95vw;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.navbar ul{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.navbar ul li{
+    margin: auto 20px;
+    list-style: none;
+}
+
+  
+  .banner {
+    color: white;
+    height: 600px;
+    background-image: url(/Users/fintanhahnefeld/Desktop/IRONHACK/Coursework/lab-day4-spotify-clone/lab-css-spotify-clone/images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+      margin-top: 0;
+      font-size: 50px;
+  }
+  .banner h3{
+      margin-top: 30px;
+      margin-bottom: 60px;
+      text-align: center;
+      width: 60%;
+  }
+
+  .bottom-section{
+margin: 50px;
+  }
+
+  .box-section h2{
+      margin-top: 40px;
+      text-align: center;
+  }
+
+  .box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+  }
+
+  .boxes {
+      margin-top: 60px;
+      margin-bottom: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  .box img {
+      width: 75px;
+  }
+  .box h3 {
+      color: #2e9c63;
+  }
+
+  .box p {
+      text-align: center;
+  }
+
+  .spotify-icon img{
+      width: 75px;
+  }
+
+  .yeezy-image img{
+      width: 270px;
+  }
+
+  .bottom-section {
+      height: 650px;
+      color: white;
+      letter-spacing: 1px;
+      background-color: #2e9c63;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .words h2{
+      font-size: 25px;
+      margin-top: 0;
+      padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.words h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.spotify-icon img {
+    margin: 0;
+    padding: 0;
+}
